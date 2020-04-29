@@ -10,7 +10,7 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 | ------------- | ------------- | -------------|
 | CNN-LSTM  | 0.773  |   |
 | BiLSTM- Attention  |  0.781  | |
-| BERTurk   |  0.808  | 0.832 |
-| GreekBERT  |    | |
+| BERTurk   |  0.808  |  |
+| GreekBERT  |    |0.832  |
 | Ensemble  |  0.816  | |
 
