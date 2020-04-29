@@ -14,3 +14,7 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 | GreekBERT  |    |0.832  |
 | Ensemble  |  0.816  | |
 
+
+All models are written in Google Collaboratory environment to take advantage of free GPU.
+
+
