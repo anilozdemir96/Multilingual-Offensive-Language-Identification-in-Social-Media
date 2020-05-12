@@ -5,7 +5,6 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 
 ### Macro Averaged F1-Scores and Accuracies on validation and test sets
 
-
 | Model  | Language | Embedding | UnderSampling | Val F1 | Val Acc | Test F1 | Test Acc |
 | ------------- | ------------- | -------------|-------------|-------------|-------------|-------------|-------------|
 |CNN |Tur |Twitter W2V | Without | 0.739  |0.857  |  0.747  | 0.861 |
@@ -34,6 +33,6 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 |Ensemble |Tur |-| Without  |  0.822 |   0.896   | 0.813 | 0.887|
 |**Ensemble** |**Tur** |-| **With**  |  **0.809** |   **0.881**  | **0.816** | **0.883**| 
 
-All models are written in Google Collaboratory environment to take advantage of free GPU.
+Submitted models are written in bold letters. All models are written in Google Collaboratory environment to take advantage of free GPU.
 
 
