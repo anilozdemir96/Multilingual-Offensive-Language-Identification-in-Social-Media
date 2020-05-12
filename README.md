@@ -15,11 +15,13 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 | Ensemble  |  0.816  | |
 
 
-| Model  | Language | Embedding | UnderSampling | Val F1 | Val Acc | Test F1 | Test Acc
+
+
+| Model  | Language | Embedding | UnderSampling | Val F1 | Val Acc | Test F1 | Test Acc |
 | ------------- | ------------- | -------------|
-| CNN | Tur |  |   | | | | | |
-| CNN   |Tur  |  | | | | | |
-| BiLSTM  | Tur |  0.808  |   | | | | | |
+| CNN | Tur | Twitter W2V |Without   | 0.739 | 0.857 |0.747 |   0.861| 
+| CNN   |Tur  | Twitter W2V |With |  0.733| 0.847|  0.738  |0.857 |
+| BiLSTM  | Tur | Twitter W2V  | Without  |0.733  |0.867 |0.747 |   0.864| 
 | BiLSTM   |Tur|        |   | | | | | | 
 | CNN-LSTM |Tur ||         |   | | | | | |
 | CNN-LSTM  |Tur|         |   | | | | | |
