@@ -3,20 +3,7 @@
 
 System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensive  Language  Identification  in  Social  Media  where  we achieved 2nd position in Turkish sub-task and  6th position in Greek Subtask. The goal of task was the identifying the Offensive Language in Social Media. 
 
-### Macro Averaged F1-Scores of test sets
-
-
-| Model  | Turkish | Greek |
-| ------------- | ------------- | -------------|
-| CNN-LSTM  | 0.773  |   |
-| BiLSTM- Attention  |  0.781  | |
-| BERTurk   |  0.808  |  |
-| GreekBERT  |    |0.832  |
-| Ensemble  |  0.816  | |
-
-
-
-
+### Macro Averaged F1-Scores and Accuracies on validation and test sets
 
 
 | Model  | Language | Embedding | UnderSampling | Val F1 | Val Acc | Test F1 | Test Acc |
@@ -43,7 +30,7 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 |BiLSTM-Att |Tur | Twitter W2V | With  |  0.748 | 0.870| 0.760  | 0.868|
 |BERTurk |Tur | - | Without  | 0.814  | 0.888  | 0.806  | 0.877  |
 |BERTurk |Tur | - | With  | 0.789   | 0.866  | 0.808   | 0.873 |
-| GreekBERT  | Greek|- | Without| - | - | 0.832| - |
+| GreekBERT  | Greek|- | Without|  |  | 0.832|  |
 |Ensemble |Tur |-| Without  |  0.822 |   0.896   | 0.813 | 0.887|
 |Ensemble |Tur |-| With  |  0.809 |   0.881  | 0.816 | 0.883| 
 
