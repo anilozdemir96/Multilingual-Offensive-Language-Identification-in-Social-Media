@@ -17,10 +17,10 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 
 
 
-\hline
 
 
 | Model  | Language | Embedding | UnderSampling | Val F1 | Val Acc | Test F1 | Test Acc |
+| ------------- | ------------- | -------------|-------------|-------------|-------------|-------------|-------------|
 
 |CNN |Tur |Twitter W2V | Without | 0.739  |0.857  |  0.747  | 0.861 |
 |CNN |Tur | Twitter W2V | With | 0.733  | 0.847  | 0.738   |0.857 |
@@ -49,7 +49,7 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 |BiLSTM-Att  |Tur | Twitter FastText | Without  | 0.735  | 0.852 |  0.721  | 0.867|
 |BiLSTM-Att  |Tur | Twitter FastText | With  |  0.738   |  0.866 | 0.747  |0.861 |
 
--BiLSTM-Att | Tur |Twitter W2V | Without  |0.763  |0.859 | 0.781  | 0.871|
+|BiLSTM-Att | Tur |Twitter W2V | Without  |0.763  |0.859 | 0.781  | 0.871|
 |BiLSTM-Att |Tur | Twitter W2V | With  |  0.748 | 0.870| 0.760  | 0.868|
 
 |BERTurk |Tur | - | Without  | 0.814  | 0.888  | 0.806  | 0.877  |
