@@ -15,6 +15,34 @@ System  developed  for  the  SemEval-2020  competition  on  MultilingualOffensiv
 | Ensemble  |  0.816  | |
 
 
+| Model  | Language | Embedding | UnderSampling | Val F1 | Val Acc | Test F1 | Test Acc
+| ------------- | ------------- | -------------|
+| CNN | Tur |  |   | | | | | |
+| CNN   |Tur  |  | | | | | |
+| BiLSTM  | Tur |  0.808  |   | | | | | |
+| BiLSTM   |Tur|        |   | | | | | | 
+| CNN-LSTM |Tur ||         |   | | | | | |
+| CNN-LSTM  |Tur|         |   | | | | | |
+| CNN-LSTM  |Tur|         |   | | | | | |
+| CNN-LSTM  |Tur|         |   | | | | | |
+| CNN-LSTM  |Tur |        |   | | | | | |
+| CNN-LSTM  |Tur|       |   | | | | | |
+| CNN-LSTM  |Tur|      |   | | | | | |
+| CNN-LSTM  |Tur |     |   | | | | | |
+| BiLSTM-Att  |Tur |      |   | | | | | |
+| BiLSTM-Att  |Tur  |     |   | | | | | ||
+| BiLSTM-Att  |Tur  |    |   | | | | | |
+| BiLSTM-Att  | Tur |   |   | | | | | |
+| BiLSTM-Att  |Tur  |   |   | | | | | |
+| BiLSTM-Att  |Tur  |   |   | | | | | |
+| BiLSTM-Att  |Tur  |   |   | | | | | |
+| BiLSTM-Att  |Tur  |   |   | | | | | |
+|GreekBERT  | Greek  |  |   | | | | | |
+| BERTurk  | Tur |  |   | | | | | |
+| BERTurk  | Tur |  |   | | | | | |
+| Ensemble  |Tur |   |   | | | | | |
+| Ensemble  |Tur |   |   | | | | | |
+
 All models are written in Google Collaboratory environment to take advantage of free GPU.
 
 
